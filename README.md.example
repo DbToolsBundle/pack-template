@@ -1,3 +1,5 @@
+[![Coding standards](https://github.com/DbToolsBundle/[your-pack]/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/DbToolsBundle/[your-pack]//actions/workflows/coding-standards.yml) [![Static Analysis](https://github.com/DbToolsBundle/[your-pack]/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/DbToolsBundle/[your-pack]/actions/workflows/static-analysis.yml) [![Continuous Integration](https://github.com/DbToolsBundle/[your-pack]/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/DbToolsBundle/[your-pack]/actions/workflows/continuous-integration.yml)
+
 
 # DbToolsBundle - Pack [your pack name]
 [a short description]
