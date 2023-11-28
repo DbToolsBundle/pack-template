@@ -1,0 +1,23 @@
+
+# DbToolsBundle - Pack [your pack name]
+[a short description]
+
+This pack provides:
+
+* `my-pack:anonymizer-1`: a short description of this anonymizer
+* `my-pack:anonymizer-2`: a short description of this anonymizer
+* `my-pack:anonymizer-3`: a short description of this anonymizer
+
+## Installation
+
+Run the following command to add this pack to your application:
+
+```sh
+composer require db-tools-bundle/pack-[your pack]
+```
+
+Learn more about how to use this package reading [the DbToolsBundle documentation](https://dbtoolsbundle.readthedocs.io/) on Read the Docs.
+
+## Licence
+
+This software is published under the [MIT License](./LICENCE.md).
