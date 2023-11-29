@@ -1,5 +1,5 @@
 {
-    "name": "db-tools-bundle/pack-template",
+    "name": "dbtoolsbundle/pack-template",
     "description": "An example pack of anonymizers for the DbToolsBundle",
     "type": "db-tools-bundle-pack",
     "license": "MIT",
