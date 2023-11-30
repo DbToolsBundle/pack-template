@@ -6,9 +6,9 @@
 
 This pack provides:
 
-* `my-pack:anonymizer-1`: a short description of this anonymizer
-* `my-pack:anonymizer-2`: a short description of this anonymizer
-* `my-pack:anonymizer-3`: a short description of this anonymizer
+* `my-pack.anonymizer-1`: a short description of this anonymizer
+* `my-pack.anonymizer-2`: a short description of this anonymizer
+* `my-pack.anonymizer-3`: a short description of this anonymizer
 
 ## Installation
 
