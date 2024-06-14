@@ -49,20 +49,19 @@ class MyAnonymizerTest extends FunctionalTestCase
         ));
 
         $anonymizator = new Anonymizator(
-            $this->getConnection(),
+            $this->getDatabaseSession(),
             new AnonymizerRegistry(null, [\dirname(\dirname(\dirname(__DIR__))) . '/src']),
             $config
         );
 
         $this->assertSame(
             "data 1",
-            $this->getConnection()->executeQuery('select my_data from table_test where id = 1')->fetchOne(),
+            $this->getDatabaseSession()->executeQuery('select my_data from table_test where id = 1')->fetchOne(),
         );
 
-        foreach ($anonymizator->anonymize() as $message) {
-        }
+        $anonymizator->anonymize();
 
-        $datas = $this->getConnection()->executeQuery('select * from table_test order by id asc')->fetchAllAssociative();
+        $datas = $this->getDatabaseSession()->executeQuery('select * from table_test order by id asc')->fetchAllAssociative();
         $this->assertNotNull($datas[0]);
         $this->assertNotSame('data 1', $datas[0]['my_data']);
         $this->assertNotNull($datas[1]);
